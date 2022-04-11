@@ -1,0 +1,62 @@
+/* RESET */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: fixed;
+    background-color: rgba(255,255,255,1);
+    left: 0;
+    right: 0;
+    min-height: 94px;
+    border-bottom: 1px solid gray;
+}
+
+header>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+main {
+    padding-top: 94px;
+}
+
+.container {
+    width: 75%;
+    margin: 5em auto;
+}
+
+h2, h3 {
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+p {
+    margin-bottom: 2em;
+}
+
+.container>ol {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+li>ol {
+    margin-top: 1em;
+}
+
+li>ol li {
+    margin-bottom: 1em;
+}
