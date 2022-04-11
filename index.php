@@ -74,7 +74,7 @@ $faqs = [
 <body>
     <header>
         <div>
-            <div>
+            <div id="links">
                 <a href="">
                     <img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png">
                 </a>
@@ -90,7 +90,7 @@ $faqs = [
                 <li><a href="#">Norme sulla privacy</a></li>
                 <li><a href="#">Termini di servizio</a></li>
                 <li><a href="#">Tecnologie</a></li>
-                <li><a href="#">Domande frequenti</a></li>
+                <li><a href="#" id="active">Domande frequenti</a></li>
             </ul>
         </nav>
     </header>
