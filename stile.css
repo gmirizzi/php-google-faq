@@ -83,6 +83,10 @@ main {
     padding-top: 94px;
 }
 
+main a {
+    text-decoration: none;
+}
+
 .container {
     width: 75%;
     margin: 5em auto;
@@ -108,4 +112,35 @@ li>ol {
 
 li>ol li {
     margin-bottom: 1em;
+}
+
+footer {
+    background: #f5f5f5;
+    font-size: 11px;
+    height: 45px;
+}
+
+footer .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgba(61,61,61,.8);
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer li::before {
+    content: "\0000b7";
+    padding: 0 5px;
 }
